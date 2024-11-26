@@ -5,7 +5,6 @@ const createCategory = async(req,res)=>{
 try{
     // destructure name from body
 const {name}= req.body;
-
    
     // create a new category and save it to the database
 const category=new Category({name})

@@ -5,4 +5,4 @@ const toSlug = (str) => {
       .replace(/[^\w-]+/g, ''); // Remove non-word characters except hyphens
   };
 //dev pulse studio
-  module.exports = {toSlug}
+  module.exports = {toSlug};
